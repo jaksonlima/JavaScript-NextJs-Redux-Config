@@ -1,0 +1,120 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 320px;
+  height: 642px;
+  border-radius: 40px;
+  color: white;
+  background-color: #0d1117;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.message h3 {
+  margin: 4px 0 6px 0;
+}
+
+.message p {
+  margin: 0 0 1px 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.custominput input {
+  height: 36px;
+  padding: 5px 12px;
+  color: #c9d1d9;
+  background-color: #070a10 !important;
+  border: 1px solid #3e3e3e;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.custominput input:focus {
+  border: 1px solid #4b90f8;
+  box-shadow: 0 0 0 3px #0c2d6b;
+  outline: none;
+}
+
+
+.custominput input:-webkit-autofill  {
+  box-shadow: inset 0 0 0 32px #0d1117 !important;
+  -webkit-text-fill-color: #c9d1d9 !important;
+}
+
+.input 
+input:-webkit-autofill:focus 
+input:-webkit-autofill:hover 
+input:-webkit-autofill:active {
+  box-shadow: inset 0 0 0 32px #0d1117 , 0 0 0 3px #0c2d6b !important;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.custombutton button {
+  height: 44px;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  margin-top: 10px;
+  transition: all 0.2s;
+}
+
+.custombutton button:hover {
+  opacity: 0.8;
+}
+
+.store {
+  background-color: #b6a29e;
+  border-radius: 7px;
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  color: #f8eaea;
+}
+
+.box {
+  display: flex;
+  align-content: flex-end;
+  background-color: #544343;
+  max-width: 500px;
+  min-width: 350px;
+  margin: 9px;
+  padding: 9px;
+  border-radius: 10px;
+}
